@@ -1,0 +1,51 @@
+#page {
+    display: flex;
+}
+
+.panel {
+    width: 33vw;
+}
+
+#panel-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hover-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+}
+
+
+#panel-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#links {
+    display: flex;
+}
+
+.masked {
+    -webkit-mask-image: url(https://kryogenix.org/images/css-jagged-cors/css-jagged-utah.png);
+    mask-image: url(https://kryogenix.org/images/css-jagged-cors/css-jagged-utah.png);
+    -webkit-mask-position: left bottom;
+    mask-position: left bottom;
+}
+
+.fas {
+    font-size: 5vh;
+}
+
+.non-hover-hide {
+    display: none;
+}
+
+
+
+
+
