@@ -47,7 +47,7 @@
     width: 36vw;
     height: 41vh;
     transform: rotate(180deg);
-
+    position: absolute;
 }
 
 
