@@ -15,7 +15,10 @@ body {
 #header {
     width: 100vw;
     height: 10vh;
-    padding: 2vw;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    color: white;
 }
 
 #photo-first {
@@ -27,6 +30,7 @@ body {
 
 #content-box {
     display: flex;
+    margin-top: 15vh;
 }
 
 #text-black {
@@ -57,7 +61,7 @@ body {
 }
 
 #third-box {
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -76,7 +80,7 @@ body {
 #one {
     display: flex;
     width: 100%;
-    height: 40%;
+    height: 45%;
     justify-content: flex-start;
 }
 
@@ -94,11 +98,152 @@ body {
 #three {
     display: flex;
     width: 100%;
-    height: 40%;
+    height: 45%;
     justify-content: flex-end;
 }
 
 #three-inner {
     width: 50%;
     background-color: purple;
+}
+
+#fourth-box {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+}
+
+#fourth-images {
+    width: 60vw;
+    margin-left: 7vw;
+    display: flex;
+    justify-content: space-between;
+}   
+
+#fourth-images-one {
+    width: 100%;
+    height: 32vh;
+    background-color: aquamarine;
+}
+
+
+
+#fourth-images-two {
+    width: 100%;
+    height: 32vh;
+    background-color: aquamarine;
+}
+
+
+
+.fourth-case {
+    width: 35%;
+    display: flex;
+}
+
+
+
+#title {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.fa-arrow-left {
+    font-weight: 900;
+    padding-top: 2vh;
+    padding-left: 2vw;
+}
+
+h1 {
+    margin: 0px;
+}
+
+#fifth-left {
+    width: 40vw;
+    height: 70vh;
+    margin-top: 15vh;
+}
+
+#fifth-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+#fifth-image {
+    width: 20vw;
+    height: 40vh;
+    background-color: chocolate;
+}
+
+#fifth-right {
+    display: flex;
+}
+
+#sixth-box {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sixth-right {
+    width: 40vw;
+    height: 70vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sixth-left  {
+    width: 40vw;
+    height: 70vh;
+    margin-top: 15vh;
+    display: flex;
+}
+
+
+#sixth-image {
+    width: 40vw;
+    height: 50vh;
+    background-color: chocolate;
+}
+
+#seventh-box {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#seventh-text {
+    color: white;
+    width: 38vw;
+    height: 80vh;
+    font-size: 7vh;
+}
+
+#seventh-photo {
+    width: 40vw;
+    height: 70vh;
+    background-color: blueviolet;
+}
+
+#eighth-box-title {
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#eighth-box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
 }
