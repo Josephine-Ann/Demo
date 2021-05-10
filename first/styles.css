@@ -30,12 +30,27 @@
     display: flex;
 }
 
-.masked {
-    -webkit-mask-image: url(https://kryogenix.org/images/css-jagged-cors/css-jagged-utah.png);
-    mask-image: url(https://kryogenix.org/images/css-jagged-cors/css-jagged-utah.png);
+.masked-w {
+    -webkit-mask-image: url(https://lh3.googleusercontent.com/proxy/4nykzEA3O3D0HJPKgefwl6tsOfO6OWig1CQLI4nX0UChUjfyJ-7JyeZYNEfC6nxCvcHpuqeC-MRefE5j-hSW9V51lTTIvaTejDbi4WXx39ETC82ejLgfUx6i_J4MiDGR);
+    mask-image: url(https://lh3.googleusercontent.com/proxy/4nykzEA3O3D0HJPKgefwl6tsOfO6OWig1CQLI4nX0UChUjfyJ-7JyeZYNEfC6nxCvcHpuqeC-MRefE5j-hSW9V51lTTIvaTejDbi4WXx39ETC82ejLgfUx6i_J4MiDGR);
     -webkit-mask-position: left bottom;
     mask-position: left bottom;
+    width: 38vw;
+    height: 41vh;
 }
+
+.masked-m {
+    -webkit-mask-image: url(https://lh3.googleusercontent.com/proxy/4nykzEA3O3D0HJPKgefwl6tsOfO6OWig1CQLI4nX0UChUjfyJ-7JyeZYNEfC6nxCvcHpuqeC-MRefE5j-hSW9V51lTTIvaTejDbi4WXx39ETC82ejLgfUx6i_J4MiDGR);
+    mask-image: url(https://lh3.googleusercontent.com/proxy/4nykzEA3O3D0HJPKgefwl6tsOfO6OWig1CQLI4nX0UChUjfyJ-7JyeZYNEfC6nxCvcHpuqeC-MRefE5j-hSW9V51lTTIvaTejDbi4WXx39ETC82ejLgfUx6i_J4MiDGR);
+    -webkit-mask-position: left bottom;
+    mask-position: left bottom;
+    width: 38vw;
+    height: 41vh;
+    transform: rotate(180deg);
+
+}
+
+
 
 .fas {
     font-size: 5vh;
