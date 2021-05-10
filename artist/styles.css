@@ -235,15 +235,101 @@ h1 {
 }
 
 #eighth-box-title {
+    padding-top: 3vh;
     height: 10vh;
     width: 80vw;
     display: flex;
     justify-content: flex-start;
 }
 
+#eighth-box-photos {
+    width: 80vw;
+    height: 70vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 #eighth-box {
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+#e-box-1 {
+width: 33.333%;
+height: 20%;
+background-color: aquamarine;
+}
+#e-box-2 {
+    width: 33.333%;
+    background-color: beige;
+    height: 10%;
+
+}
+#e-box-3 {
+    width: 33.333%;
+    background-color: gold;
+    height: 20%;
+
+}
+#e-box-4 {
+    width: 33.333%;
+    background-color: darkcyan;
+    height: 30%;
+
+}
+#e-box-5 {
+    width: 33.333%;
+    background-color: saddlebrown;
+    height: 20%;
+
+}
+#e-box-6 {
+    width: 33.333%;
+    background-color: navajowhite;
+    height: 20%;
+
+}
+#e-box-7 {
+    width: 33.333%;
+    background-color: chocolate;
+    height: 40%;
+
+}
+#e-box-8 {
+    width: 33.333%;
+    background-color: purple;
+    height: 20%;
+
+}
+#e-box-9 {
+    width: 33.333%;
+    background-color: magenta;
+    height: 20%;
+
+}
+
+#e-box-10 {
+    width: 33.333%;
+    background-color: darkolivegreen;
+    height: 30%;
+
+}
+
+#e-box-11 {
+    width: 33.333%;
+    background-color: orangered;
+    height: 50%;
+
+}
+
+#e-box-12 {
+    width: 33.333%;
+    background-color: forestgreen;
+    height: 20%;
+
 }
